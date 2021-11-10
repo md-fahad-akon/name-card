@@ -1,0 +1,57 @@
+* {
+/*   color:border:solid 1px;  */
+  font-family:標楷體;
+  position:relative;
+  
+  
+}
+canvas{ background-color: rgba(0,0,0,0); overflow:hidden; 
+  width:100% ;
+  height:100% ;
+  padding:0px;margin:0px;  
+ }
+body,html{ 
+  background:radial-gradient(3000% 100% at bottom center,#FF7272,#F2A359,#D46585,#75517D,#141E34); 
+   background:radial-gradient(220% 105% at top center,#141E34 30%,#75517D 70%,#D46585 100%,#F2A359 135%,#FF7272 200%);
+ overflow:hidden; 
+  width:100% ;
+  height:100% ;
+  padding:0px;margin:0px;
+   }
+
+
+.namecard{width:500px;height:500px;
+   padding:20px; left:450px;
+   top:100px;
+  background:radial-gradient(200% 100% at bottom center,#F2DC5D 110% ,hsla(240,50%,70%,0.3) 45% );
+  background:radial-gradient(200% 100% at bottom center,hsla(240,50%,70%,0.3) 45%, #F2DC5D 110%);
+  letter-spacing:1.5px;
+  border:solid 5px   rgba(0,0,0,0.3) );
+  border-radius:25px;
+  box-shadow:18px 35px 50px -30px rgba(0,0,0,0.3);
+  border-radius:100%;
+  position:absolute;
+  
+  
+  }
+.name{font-size:28px;font-weight:700; margin-left:80px;margin-top:150px;color:#EAEFD3
+   }
+.sp{ font-size:18px;font-weight:500;color:#EAEFD3}
+.work{ font-size:20px;font-weight:900;margin-left:80px;margin-top:20px;color:#EAEFD3}
+.letter{font-size:15px;line-height:23.5px;font-weight:200;margin-left:80px;margin-top:20px;color:#EAEFD3 ;
+}
+.title{
+  text-align:center;
+  color: rgba(0,0,0,0.4);
+  font-weight:500;
+  padding-left:200px;
+  padding-top:800px;
+}
+.mark{
+   text-align:center;
+  font-size:300px;
+  position:absolute;
+  bottom:100px;
+  font-weight:100;
+  color:rgba(0,0,0,0.1);
+}
